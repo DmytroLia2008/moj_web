@@ -672,27 +672,6 @@ button {
   margin-top: 0.6rem;
 }
 
-.about-portrait {
-  width: 100%;
-  max-width: 180px;
-  aspect-ratio: 0.82;
-  grid-column: 1;
-  grid-row: 2;
-  justify-self: start;
-  overflow: hidden;
-  margin: 0;
-  border-radius: 6px;
-  background: var(--cream);
-}
-
-.about-portrait img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 35%;
-}
-
 .site-footer {
   padding: clamp(4.5rem, 8vw, 7rem) 0 1.2rem;
   background: var(--ink);
@@ -1010,14 +989,6 @@ button {
 
   .about-copy {
     max-width: 460px;
-  }
-
-  .about-portrait {
-    width: min(50%, 180px);
-    aspect-ratio: 0.9;
-    grid-column: 1;
-    grid-row: 2;
-    justify-self: start;
   }
 
   .footer-top {
